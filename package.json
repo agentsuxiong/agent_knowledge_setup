@@ -1,0 +1,21 @@
+{
+  "name": "agent-knowledge-setup",
+  "version": "0.1.0",
+  "description": "供應鏈技術知識體系 MVP：Git 持久化的私有領域知識庫、管理後台、生產型與消費型 API",
+  "type": "module",
+  "private": true,
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node scripts/seed.js",
+    "test": "node --test --test-concurrency=1 \"test/**/*.test.js\""
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "yaml": "^2.8.1"
+  }
+}

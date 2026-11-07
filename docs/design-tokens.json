@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "language": "zh-Hant",
+  "colors": {
+    "brand": "#147fe6",
+    "action": "#0b69c4",
+    "background": "#f5f7fb",
+    "surface": "#ffffff",
+    "text": "#24334a",
+    "muted": "#64758b",
+    "border": "#e9edf3"
+  },
+  "layout": {
+    "headerHeight": 56,
+    "sidebarWidth": 176,
+    "contentPaddingX": 20,
+    "gap": 12,
+    "mobileBreakpoint": 700
+  },
+  "radius": {
+    "panel": 9,
+    "button": 6
+  },
+  "typography": {
+    "pageTitle": 21,
+    "sectionTitle": 14,
+    "body": 13,
+    "table": 12
+  },
+  "navigation": {
+    "level1": "top",
+    "level2": "left"
+  }
+}
